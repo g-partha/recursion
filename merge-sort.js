@@ -1,4 +1,3 @@
-function mergeSort(array) {
   function merge(arr1, arr2) {
     const mergedArray = [];
     let i = 0,
@@ -21,6 +20,8 @@ function mergeSort(array) {
 
     return mergedArray;
   }
+function mergeSort(array) {
+
   if (array.length <= 1) {
     return array;
   }
